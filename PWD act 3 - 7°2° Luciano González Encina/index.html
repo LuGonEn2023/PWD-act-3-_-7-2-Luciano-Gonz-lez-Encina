@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería de Imágenes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button id="darkModeToggle">Modo Oscuro/Claro</button>
+
+  <div class="gallery-container">
+    <div class="carousel">
+      <img src="assets/images/TempleImage.jpg" alt="Imagen 1" class="carousel-image">
+      <img src="assets/images/DanteImage.png" alt="Imagen 2" class="carousel-image">
+      <img src="assets/images/SevagothImage.jpg" alt="Imagen 3" class="carousel-image">
+    </div>
+  </div>
+
+  <div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImage">
+  </div>
+
+  <audio id="backgroundMusic" src="assets/audio/PartyOfYourLifetime.mp3" controls></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
